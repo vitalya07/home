@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Рабочий дом, помощь людям попавшим в сложную жизненую ситуцацию">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Рабочий дом, помощь людям">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Рабочий дом</title>
+</head>
+<body>
+    <div class="body__container">
+        <div class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <a href="index.html" class="header__logo"><img src="icons/logo.svg" alt="Логотип сайта"></a>
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__list-item"><a href="#" class="header__list-link">Статьи</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">О нас</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Отзывы</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Контакты</a></li>
+                            <li class="header__list-item"><a href="#" class="header__list-link">Поддержать рабочий дом</a></li>
+                        </ul>
+                    </nav>
+                    <div class="header__contacts">
+                        <a href="tel:79373903333" class="header__contacts-phone">8-937-390-33-33</a>
+                        <div class="header__contacts-warning">работают мессенджеры</div>
+                    </div>
+                   <button data-modal class="header__btn btn">Оставить заявку</button>
+                   <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <main class="content">
+            <section class="main">
+                <div class="container">
+                    <div class="main__wrapper">
+                        <div class="main__left">
+                            <h1 class="main__title"><span>помощь с жильём и работой 24/7</span> в рабочем ДОМЕ</h1>
+                            <div class="main__advantages">
+                                <div class="main__advantages-item">
+                                    <div class="main__advantages-icon">
+                                        <img src="icons/check.svg" alt="Преимущество 1">
+                                    </div>
+                                    <div class="main__advantages-name">ЕЖЕДНЕВНЫЕ ВЫПЛАТЫ!</div>
+                                </div>
+                                 <div class="main__advantages-item">
+                                    <div class="main__advantages-icon">
+                                        <img src="icons/check.svg" alt="Преимущество 2">
+                                    </div>
+                                    <div class="main__advantages-name">РАБОТА КАЖДОМУ ПО СИЛАМ</div>
+                                </div>
+                            </div>
+                        </div>  
+                        <form class="main__form">
+                            <label class="main__form-label">
+                                <input type="text" name="name" class="main__form-input" id="main-name" placeholder="Ваше имя">
+                            </label>
+                            <label class="main__form-tel">
+                                <input type="tel" name="tel" class="main__form-input" id="main-tel" placeholder="Ваш телефон">
+                            </label>
+                            <button class="main__form-btn btn" type="submit">Оставить заявку</button>
+                        </form>                     
+                    </div>                   
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
