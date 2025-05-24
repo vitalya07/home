@@ -1,13 +1,5 @@
 .about {
     padding: 100px 0;
-    &__title {
-        font-weight: 700;
-        font-size: 70px;
-        margin-bottom: 100px;
-        text-align: center;
-        color: $darkColor;
-        text-shadow: 20px 20px 40px $darkColor;
-    }
     &__digits {
         display: flex;
         align-items: start;
@@ -45,7 +37,7 @@
         line-height: 130%;
         color: $darkColor;
         max-width: 700px;
-        margin-bottom: 40px;
+        margin-bottom: 15px;
         z-index: 3;
     }
     &__right {
@@ -56,6 +48,9 @@
         display: flex;
         align-items: center;
         justify-content: start;
+        // position: absolute;
+        // bottom: -20px;
+        // left: 20px;
         cursor: pointer;
         &-warning {
             font-size: 16px;
@@ -72,12 +67,24 @@
         position: relative;
         background-color: #fff;
         z-index: 1;
-        overflow: hidden;
     }
     &__info {
-        position: absolute;
-        top: 0;
-        left: 0;
+        display: none;
         width: 100%;
+        &-title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 150%;
+            color: $mainColor;
+        }
+        &-descr {
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 130%;
+            color: $darkColor;
+            max-width: 700px;
+            margin-bottom: 40px;
+            z-index: 3;
+        }
     }
 }
