@@ -7,7 +7,7 @@
     width: 100%;
     height: auto;
     &__title {
-        width: 800px;
+        width: 800px;       
         &::after {
             content: '';
             position: absolute;
@@ -34,6 +34,10 @@
         font-size: 50px;
         line-height: 120%;
         color: $mainColor;
+        border-radius: 100%;
+        padding: 20px;
+        width: 150px;
+        border: 1px solid $mainColor;
         span {
             font-size: 20px;
         }
