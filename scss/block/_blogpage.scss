@@ -1,0 +1,61 @@
+.blogpage {
+    padding: 150px 20px;
+    &__header {
+        border-bottom: 1px solid $darkColor2;
+        &-item {
+            &::before {
+                background-color: $darkColor;
+            }
+        }
+        &-link {
+            color: $darkColor;
+        }
+        &-contacts {
+            &--warning {
+                color: $darkColor;
+            }
+        }
+    }
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-rows: 2 500px;
+        grid-auto-rows: 2 500px;
+        gap: 50px;
+    }
+    &__item {
+        box-shadow: 20px 20px 40px $darkColor;
+        &-box {
+            padding: 0 20px 10px 20px;
+        }
+        &-title {
+            font-family: 'Georgia-bold', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 120%;
+            color: $darkColor;
+            margin-bottom: 20px;
+        }
+        &-descr {
+            font-family: 'Georgia', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 120%;
+            color: $darkColor;
+            margin-bottom: 30px;
+        }
+        &-link {
+            font-family: 'Georgia', sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 120%;
+            color: $mainColor;
+            margin-left: 60%;
+            transition: all .4s ease;
+            &:hover {
+                transition: all .4s ease;
+                border-bottom: 2px solid $mainColor;
+            }
+        }
+    }
+}

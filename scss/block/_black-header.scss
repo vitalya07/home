@@ -1,0 +1,16 @@
+.black__header {
+    border-bottom: 1px solid $darkColor2;
+    &-item {
+        &::before {
+            background-color: $darkColor;
+        }
+    }
+    &-link {
+        color: $darkColor;
+    }
+    &-contacts {
+        &--warning {
+            color: $darkColor;
+        }
+    }
+}

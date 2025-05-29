@@ -1,0 +1,59 @@
+.helphouse {
+    padding: 150px 20px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    &__img {
+        width: 300px;
+        height: auto;
+    }
+    &__descr {
+        max-width: 800px
+    }
+    &__box {
+        &-title {
+            font-family: 'Georgia-bold';
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: $darkColor;
+        }
+        &-descr {
+            font-family: 'Georgia';
+            font-weight: 400;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        
+    }
+    &__list {
+        margin: 30px 0;
+        margin-bottom: 30px;
+        &-title {
+            font-family: 'Georgia-bold';
+            font-weight: 700;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color: $darkColor;
+        }
+        &-item {
+            font-family: 'Georgia';
+            font-weight: 400;
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: $darkColor;
+        }
+    }
+    &__help {
+        font-family: 'Georgia-bold';
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+        color: $mainColor;
+    }
+}
